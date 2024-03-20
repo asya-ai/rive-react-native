@@ -27,7 +27,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
-  // namespace 'com.rivereactnative'
+  namespace 'com.rivereactnative'
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   buildToolsVersion getExtOrDefault('buildToolsVersion')
   defaultConfig {
